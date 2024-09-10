@@ -15,3 +15,29 @@ In this model, we start by calculating the probability that an individual has or
 For example, if an individual has high cholesterol and high blood pressure, we calculate the probability that they have heart disease based on these features and make a final prediction by also considering other features like age and gender.
 
 It's important to note that the Naive Bayes model assumes that features are independent of each other, meaning, for example, that cholesterol level does not affect age. Although this assumption is not always true in reality, the model still performs well and is computationally efficient.
+
+### Metric
+
+
+Metric	Score
+0	Accuracy	0.815789
+1	Precision	0.775510
+2	Recall	0.926829
+3	F1 Score	0.844444
+
+Our model performs well in identifying positive cases, but in some instances, it incorrectly predicts healthy individuals as having the disease.
+
+
+### Confusion Matrix
+
+![confusion_matrix_plot](https://github.com/user-attachments/assets/bf906a2d-232b-4e12-894c-1c20e36a8776)
+
+There are 11 false positives where the model incorrectly predicted healthy individuals as having the disease. This is a notable amount and should be further investigated. There are only 3 false negatives, indicating that the model has performed well in identifying diseased individuals.
+
+
+
+
+
+
+
+
