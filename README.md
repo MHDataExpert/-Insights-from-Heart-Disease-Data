@@ -31,7 +31,9 @@ In logistic regression, our goal is to model the probability of a specific event
 
 
 
+The effectiveness of a logistic regression model is heavily dependent on the choice of features used for prediction. Selecting relevant features is crucial, as the quality of the model's predictions is directly influenced by these variables. If too many irrelevant or redundant features are included, the model may become overly complex and less effective at making accurate predictions. Conversely, choosing the right set of features helps the model to better identify patterns and relationships in the data, leading to more reliable predictions.
 
+In summary, logistic regression is a valuable tool for binary classification problems, such as predicting heart disease. By carefully selecting and optimizing the features used in the model, we can enhance its accuracy and overall performance in predicting patient outcomes.
 
 
 
