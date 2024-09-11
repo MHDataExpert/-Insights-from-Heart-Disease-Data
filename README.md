@@ -22,6 +22,13 @@ The goal of this project is to use machine learning techniques and medical data 
 
 
 
+## How the  logistic regression Model Works for Predicting Heart Disease
+
+
+
+In logistic regression, our goal is to model the probability of a specific event occurring. In this technique, we aim to predict a categorical variable that has only two possible outcomes (e.g., Yes or No, 0 or 1). This prediction is based on several independent variables, which can be either continuous or categorical. Simply put, logistic regression helps us estimate the likelihood of an event happening using existing data, and then classify the results in a binary fashion.
+
+
 
 
 
