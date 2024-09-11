@@ -108,15 +108,21 @@ The allocation of training and test data ratios has a significant impact on the 
 
 
 Training Ratio: 50% | Accuracy: 82.24%
+
 Training Ratio: 60% | Accuracy: 81.97%
+
 Training Ratio: 70% | Accuracy: 82.42%
+
 Training Ratio: 80% | Accuracy: 86.89%
+
 Training Ratio: 90% | Accuracy: 83.87%
 
 
 
+![traaing](https://github.com/user-attachments/assets/ac7a8f01-6bab-47b3-8d80-c3e109d90294)
 
 
+Based on the above chart, the 80% training data and 20% test data ratio has been selected as the optimal choice, as the model shows the highest accuracy of 86.89% with this ratio. Choosing this ratio helps us achieve the best possible performance from our model.
 
 
 
