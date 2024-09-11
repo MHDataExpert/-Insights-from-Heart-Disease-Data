@@ -37,6 +37,32 @@ In summary, logistic regression is a valuable tool for binary classification pro
 
 
 
+## Feature Selection
+
+## ANOVA and Tukey HSD Analysis
+
+Below are the results of the ANOVA and Tukey HSD tests for various variables:
+
+| **Variable** | **ANOVA p-value** | **Significant** | **Tukey HSD Details**                          |
+|--------------|-------------------|-----------------|------------------------------------------------|
+| age          | 7.52e-05          | Yes             | Multiple Comparison of Means - Tukey HSD, FWER... |
+| trestbps     | 1.15e-02          | Yes             | Multiple Comparison of Means - Tukey HSD, FWER... |
+| chol         | 1.39e-01          | No              | None                                           |
+| thalach      | 1.70e-14          | Yes             | Multiple Comparison of Means - Tukey HSD, FWER... |
+| oldpeak      | 4.09e-15          | Yes             | Multiple Comparison of Means - Tukey HSD, FWER... |
+
+
+
+In this section of the project, Analysis of Variance (ANOVA) is used to examine the relationship between continuous variables (such as age, resting blood pressure, cholesterol, maximum heart rate, and ST depression) and the categorical dependent variable (target).
+
+The table below shows the results of the ANOVA, indicating whether there are significant differences in the means of these continuous variables across the different categories of the target variable.
+
+The p-value represents the probability that the observed differences are due to chance. If the p-value is less than 0.05, the variable is considered to have a significant difference between groups (the "Significant" column is marked as "True").
+
+For variables that show significant differences (such as "age," "trestbps," "thalach," and "oldpeak"), the Tukey's HSD test is used to determine exactly which groups differ from each other. The Tukey test performs pairwise comparisons with precision and helps prevent statistical errors.
+
+For a variable like "chol", where the p-value is greater than 0.05, no significant difference was observed, and thus, the Tukey test is not necessary.
+
 
 
 
