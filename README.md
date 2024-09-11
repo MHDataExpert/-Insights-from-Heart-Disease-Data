@@ -68,11 +68,32 @@ For a variable like "chol", where the p-value is greater than 0.05, no significa
 
 
 
+ ## Chi-square
+
+ | Variable   | Chi-square value | P-value         |
+|------------|------------------|-----------------|
+| sex        | 22.717227         | 1.876778e-06    |
+| cp         | 81.686428         | 1.334304e-17    |
+| fbs        | 0.106273          | 7.444281e-01    |
+| restecg    | 10.023092         | 6.660599e-03    |
+| exang      | 55.944550         | 7.454409e-14    |
+| slope      | 47.506897         | 4.830682e-11    |
+| ca         | 74.366631         | 2.712470e-15    |
+| thal       | 85.303740         | 2.233351e-18    |
+| target     | 298.981398        | 5.491510e-67    |
 
 
 
 
+In this section of the project, the Chi-square test is used to examine the relationship between the categorical dependent variable (target) and several categorical independent variables. This test helps us determine whether there is a significant difference in the distribution of data across the different groups of independent variables.
 
+For variables such as sex, cp (chest pain type), exang (exercise-induced angina), slope, ca (number of major vessels), and thal, the P-value is less than 0.05, indicating a significant relationship between these variables and the target.
+
+For the variable fbs (fasting blood sugar), the P-value is 0.744, showing no significant relationship between this variable and the target.
+
+The very small P-value for the target variable (5.491510e-67) indicates a highly significant difference among the groups of this variable.
+
+These results demonstrate that some categorical independent variables, such as cp, thal, and ca, have a significant relationship with the dependent variable, while others, like fbs, do not have a notable impact.
 
 
 
