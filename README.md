@@ -8,16 +8,16 @@ The goal of this project is to use machine learning techniques and medical data 
 
 ## Project Objectives:
 
-# - Identify important features related to heart disease.
-# - Utilize machine learning models to analyze and predict heart disease.
-# - Develop a model that can accurately identify individuals at risk of heart disease.
+ - Identify important features related to heart disease.
+ - Utilize machine learning models to analyze and predict heart disease.
+ - Develop a model that can accurately identify individuals at risk of heart disease.
 
 ## Techniques Used:
 
 # This project employs the following two machine learning algorithms:
 
-# - Logistic Regression: To model the probability of heart disease based on input data.
-# - Naive Bayes: For classification and data analysis under the assumption of feature independence.
+ - Logistic Regression: To model the probability of heart disease based on input data.
+ - Naive Bayes: For classification and data analysis under the assumption of feature independence.
 
 
 
