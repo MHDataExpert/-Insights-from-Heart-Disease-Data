@@ -99,8 +99,19 @@ These results demonstrate that some categorical independent variables, such as c
 
 
 
+## Training the model
 
 
+
+
+The allocation of training and test data ratios has a significant impact on the performance of our model. To achieve a more accurate evaluation, we test various ratios between the training and test data and examine the model's accuracy for each to identify the optimal combination.
+
+
+Training Ratio: 50% | Accuracy: 82.24%
+Training Ratio: 60% | Accuracy: 81.97%
+Training Ratio: 70% | Accuracy: 82.42%
+Training Ratio: 80% | Accuracy: 86.89%
+Training Ratio: 90% | Accuracy: 83.87%
 
 
 
