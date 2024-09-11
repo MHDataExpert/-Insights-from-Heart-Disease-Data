@@ -1,3 +1,68 @@
+# Heart Disease Prediction Project
+
+ Every year, a large number of individuals lose their lives due to heart disease. 
+The goal of this project is to use machine learning techniques and medical data analysis 
+ to uncover hidden patterns and relationships among features of individuals 
+ who have suffered from heart disease. 
+ This will help us predict the disease with higher accuracy and contribute to early diagnosis.
+
+## Project Objectives:
+
+# - Identify important features related to heart disease.
+# - Utilize machine learning models to analyze and predict heart disease.
+# - Develop a model that can accurately identify individuals at risk of heart disease.
+
+## Techniques Used:
+
+# This project employs the following two machine learning algorithms:
+
+# - Logistic Regression: To model the probability of heart disease based on input data.
+# - Naive Bayes: For classification and data analysis under the assumption of feature independence.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## How the Naive Bayes Model Works for Predicting Heart Disease
 
 In this model, we start by calculating the probability that an individual has or does not have heart disease. These are considered as initial guesses (referred to as **prior probabilities**). Once we have these prior probabilities, we proceed to calculate the probability of an individual with specific features, such as age, blood pressure, and other characteristics, having heart disease.
